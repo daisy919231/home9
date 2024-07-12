@@ -1,3 +1,3 @@
-'I have been debugging for a whole night, I was trying to get rid of keyword error 'brand', because it was available for 16 products and was not for 13 products, that is why it was giving this error. Then the problem was solved by using get() fumnctions
+'I have been debugging for a whole night, I was trying to get rid of keyword error 'brand', because it was available for 16 products and was not for 13 products, that is why it was giving this error. Then the problem was solved by using get() functions
  advanced usage, in the for loop: for product in product_list brand=get('brand','no brand name'(it was a default value when I was trying to solve the keyerror problem)). So here the key is brand and the vaule is 'no brand name'. 
  Then I also when executing put the brand variable instead of product['brand'] and the result was  as expected, Alhamdullilah.'
