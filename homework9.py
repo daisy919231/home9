@@ -64,3 +64,10 @@ with connect() as (conn, curr):
         ))
     conn.commit()
     print('Successfully inserted!')
+
+with connect() as (conn,curr):
+    select_query=""" select * from products """
+    curr.execute(select_query)
+    rows=curr.fetchall()
+    for row in rows:
+        print(row)
